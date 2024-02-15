@@ -1,3 +1,15 @@
+.header {
+	margin: 20px auto;
+	padding: 30px;
+}
+.btn {
+	color: magenta;
+	font-weight: bold;
+	background-color: black;
+	padding: 20px;
+	margin: 25px;
+	cursor: pointer;
+}
 .blog {
 	background-color: maroon;
 	color: white;
@@ -20,6 +32,11 @@
 }
 .speakers {
 	background-color: blueviolet;
+	color: white;
+	text-align: center;
+}
+.conference {
+	background-color: rgb(71, 13, 126);
 	color: white;
 	text-align: center;
 }
