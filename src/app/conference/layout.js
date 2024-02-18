@@ -1,4 +1,6 @@
 import { Open_Sans } from "next/font/google";
+import "../globals.css";
+
 const inter = Open_Sans({ subsets: ["latin"], weight: ["400"] });
 
 export const metadata = {
@@ -10,9 +12,7 @@ export default function ConferenceLayout({ children }) {
 	return (
 		<>
 			<html lang="en" className={inter.className}>
-				<body>
-					<main>{children}</main>
-				</body>
+				<section>{children}</section>
 			</html>
 		</>
 	);

@@ -1,42 +1,25 @@
 .header {
-	margin: 20px auto;
-	padding: 30px;
-}
-.btn {
-	color: magenta;
-	font-weight: bold;
-	background-color: black;
-	padding: 20px;
-	margin: 25px;
-	cursor: pointer;
-}
-.blog {
-	background-color: maroon;
 	color: white;
+	padding: 40px;
 	text-align: center;
-}
-.home {
-	background-color: rgb(34, 9, 9);
-	color: white;
-	text-align: center;
-}
-.session {
-	background-color: green;
-	color: white;
-	text-align: center;
-}
-.settings {
-	background-color: rgb(82, 27, 82);
-	color: white;
-	text-align: center;
-}
-.speakers {
-	background-color: blueviolet;
-	color: white;
-	text-align: center;
+	background-color: #f50057;
 }
 .conference {
-	background-color: rgb(71, 13, 126);
-	color: white;
-	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 20px auto;
+}
+.conferenceContainer {
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+	align-items: center;
+	margin: auto;
+}
+.conferenceContainer p {
+	font-size: 1rem;
+	text-align: left;
+	margin-left: 50px;
 }

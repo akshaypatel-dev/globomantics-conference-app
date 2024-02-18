@@ -11,12 +11,29 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
 	return (
-		<>
-			<html lang="en" className={inter.className}>
-				<body>
-					<main>{children}</main>
-				</body>
-			</html>
-		</>
+		<html lang="en" className={inter.className}>
+			<div className={styles.container}>
+				<Link href="/home">
+					<button className={styles.btn}>Globomatics</button>
+				</Link>{" "}
+				<Link href="/settings">
+					<button className={styles.btn}> Settings</button>
+				</Link>
+				<Link href="/conference">
+					<button className={styles.btn}>Conference </button>{" "}
+				</Link>
+				<Link href="/blog">
+					<button className={styles.btn}> Blog </button>
+				</Link>
+			</div>
+			<section>{children}</section>
+			<footer className={styles.footer}>
+				<p>Thanks for visiting my demo app</p>
+				<p>
+					{" "}
+					Design and Developed By: <b> AKSHAY KUMAR PATEL</b>
+				</p>
+			</footer>
+		</html>
 	);
 }
