@@ -22,7 +22,7 @@ export default function Home() {
 				</p>
 				<Image
 					height={500}
-					width={500}
+					width={700}
 					src={groupcionference}
 					sizes={"50vw"}
 				></Image>

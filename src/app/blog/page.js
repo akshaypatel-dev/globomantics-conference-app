@@ -19,7 +19,7 @@ export default function Page() {
 					location. Embrace the power of technology and streamline your team's
 					communication with the conference call web app.{" "}
 				</p>
-				<Image height={500} width={500} src={blog} sizes={"50vw"}></Image>
+				<Image height={500} width={700} src={blog} sizes={"50vw"}></Image>
 			</div>
 		</>
 	);
