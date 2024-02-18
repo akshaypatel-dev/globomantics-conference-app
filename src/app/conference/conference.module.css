@@ -14,12 +14,22 @@
 .conferenceContainer {
 	display: flex;
 	justify-content: space-around;
+	flex-wrap: wrap;
 	align-content: center;
 	align-items: center;
 	margin: auto;
 }
+
 .conferenceContainer p {
 	font-size: 1rem;
 	text-align: left;
 	margin-left: 50px;
+}
+@media screen and (max-width: 1024px) {
+	.conferenceContainer p {
+		margin: auto;
+	}
+	.conferenceContainer {
+		display: block;
+	}
 }

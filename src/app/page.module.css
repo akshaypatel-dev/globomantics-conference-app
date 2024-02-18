@@ -12,12 +12,11 @@
 	justify-content: space-around;
 	align-content: center;
 	align-items: center;
-	margin: auto;
 }
 .conferenceContainer p {
 	font-size: 1.4rem;
 	text-align: left;
-	margin-left: 50px;
+	width: 40%;
 }
 .header {
 	background-color: #f50057;
@@ -39,4 +38,15 @@
 	font-size: 14px;
 	padding-left: 30px;
 	padding-right: 30px;
+}
+@media screen and (max-width: 850px) {
+	.conferenceContainer p {
+		margin: auto;
+		font-size: 14px;
+		text-align: left;
+		width: 90%;
+	}
+	.conferenceContainer {
+		flex-wrap: wrap;
+	}
 }
