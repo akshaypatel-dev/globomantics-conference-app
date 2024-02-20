@@ -26,7 +26,7 @@ export default function Page() {
 						width={700}
 						src={settings}
 						sizes={"50vw"}
-					></Image>
+					/>
 				</div>
 			</div>
 		</>

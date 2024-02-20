@@ -25,7 +25,7 @@ export default function Page() {
 					width={700}
 					src={blog}
 					sizes={"50vw"}
-				></Image>
+				/>
 			</div>
 		</>
 	);

@@ -26,7 +26,7 @@ export default function Home() {
 					alt="group in conference"
 					src={groupcionference}
 					sizes={"50vw"}
-				></Image>
+				/>
 			</div>
 		</>
 	);
