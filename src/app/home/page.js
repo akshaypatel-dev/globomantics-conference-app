@@ -23,6 +23,7 @@ export default function Home() {
 				<Image
 					height={500}
 					width={700}
+					alt="group in conference"
 					src={groupcionference}
 					sizes={"50vw"}
 				></Image>

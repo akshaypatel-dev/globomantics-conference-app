@@ -20,7 +20,13 @@ export default function Page() {
 						it easier to create a professional and engaging virtual environment
 						for your meetings.
 					</p>
-					<Image height={500} width={700} src={settings} sizes={"50vw"}></Image>
+					<Image
+						alt="Woman image with settings"
+						height={500}
+						width={700}
+						src={settings}
+						sizes={"50vw"}
+					></Image>
 				</div>
 			</div>
 		</>
