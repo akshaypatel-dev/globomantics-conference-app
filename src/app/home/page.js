@@ -18,7 +18,7 @@ export default function Home() {
 					simplifies the process of conducting meetings and ensures that
 					everyone can participate and contribute regardless of their physical
 					location. Embrace the power of technology and streamline your team's
-					communication with the conference call web app.{" "}
+					communication with the conference call web app.
 				</p>
 				<Image
 					height={500}
